@@ -1,0 +1,144 @@
+@media screen and (max-width: 900px) {
+    nav {
+        max-width: 90vw;
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .content> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .content> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .content> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    section.first>div :nth-child(1) {
+        font-size: 32px;
+    }
+
+    section.first>div :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .content-buttons {
+        flex-direction: column;
+    }
+
+    .faq h2 {
+        font-size: 32px;
+    }
+
+    footer {
+        max-width: 90vw;
+    }
+
+    .footer {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-item {
+        align-items: center;
+        margin: 10px auto;
+    }
+}
+
+@media screen and (max-width:450px) {
+    nav img {
+        width: 107px;
+    }
+
+    .btn {
+        padding: 1px 5px;
+        font-size: 8px;
+    }
+
+    .secImg img {
+        width: 300px;
+    }
+
+    .secImg video {
+        top: 58px;
+        width: 260px;
+    }
+
+    .content> :nth-child(1) {
+        font-size: 24px;
+    }
+
+    .content> :nth-child(2) {
+        font-size: 12px;
+    }
+
+    .content> :nth-child(3) {
+        font-size: 12px;
+    }
+
+    .main input {
+        padding: 7px 3px 8px 14px;
+    }
+
+    .secImg #video1 {
+        top: 81px;
+        right: 42px;
+        width: 218px;
+    }
+
+    .secImg #video2 {
+        top: 4px;
+        right: 57px;
+        width: 189px;
+    }
+
+    section.first>div :nth-child(1) {
+        font-size: 24px;
+    }
+
+    section.first>div :nth-child(2) {
+        font-size: 12px;
+    }
+
+    .faqbox {
+        font-size: 12px;
+    }
+
+    .faq h2 {
+        font-size: 24px;
+    }
+
+    .footer a {
+        font-size: 12px;
+    }
+
+    .footer-item {
+        margin: 8px auto;
+    }
+}
+
+@media screen and (max-height:400px) {
+    .content-box {
+        height: calc(100% - 133px);
+    }
+
+    .content {
+        gap: 4px;
+    }
+
+    .content> :nth-child(1) {
+        font-size: 24px;
+    }
+
+    .content> :nth-child(2) {
+        font-size: 15px;
+    }
+
+    .content> :nth-child(3) {
+        font-size: 15px;
+    }
+}
